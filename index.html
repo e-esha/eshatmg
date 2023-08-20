@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esha's Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Playfair:wght@700&family=Poppins:wght@400;700&family=Roboto+Condensed:ital,wght@1,300;1,400&family=Rubik+Puddles&family=Teko:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+body{
+    background-color: rgb(111 65 61);
+
+    color:black;
+    font-family: 'Poppins',sans-serif;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+nav
+{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 80px;
+   background-color: rgb(143, 122, 95);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin: 0 23px;
+   
+}
+
+nav ul li a{
+    
+    color: #fff8f2;;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    
+   color:rgb(228, 187, 24);
+   font-size: 1.09rem;
+}
+.left
+{
+    font-size: 2em;
+}
+
+.firstSection
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:80px 0;
+}
+
+.firstSection> div
+{
+    width: 30%;
+    color:rgb(151 127 95)
+ 
+}
+.leftSection
+
+{
+  
+   
+    font-size: 3rem;
+}
+
+
+
+
+
+.purple
+{
+    color:rgb(203 123 104 / 88%);
+}
+
+#element
+{
+color:rgb(195 110 0);;
+}
+
+.secondSection
+{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vw;
+}
+
+.secondSection h1
+{
+    font-size: 1.9rem;
+    margin: 36px 0px;
+}
+
+hr{
+width: 0 100px;
+
+}
+
+.text-grey{
+color: rgb(9, 2, 17);
+margin: 123px 0px;
+}
+
+
+
+  .secondSection .box
+{
+    background-color: white;
+    width: 60vw;
+    height: 2px;
+    margin: 183px -2px;
+    display: flex;
+
+}
+
+.secondSection .vertical
+{
+    height: 64px;
+    width: 1px;
+    background-color: white;
+    margin: 0px 113px;
+}
+
+.image-top
+{
+    width: 23px;
+    position: relative;
+    top:-32px;
+    left: -9px;
+}
+
+.vertical-title
+{
+    position: relative;
+    top: 40px;
+    width: 150px;
+    font-size:28px;
+}
+
+.vertical-desc
+{
+    position: relative;
+top: 51px;
+color: blue;
+width: 150px;
+font-size: 18px;
+}
+
+footer
+{
+    background-color: rgb(99, 9, 9);
+    
+   
+}
+
+.flex
+{
+    display: flex;
+    padding: 23px 12px;
+    justify-content: space-evenly;
+}
+
+.flex ul{
+    list-style: none;
+    
+}
+
+.flex>div
+{
+    width: 223px;
+}
+
+
+footer .footer-right
+{
+    text-align: center;
+    color: bisque;
+    padding: 12px 0;
+}
+
+.leftSection .btn
+{
+    padding: 15px;
+    background-color:bisque ;
+    color:black ;
+    border: 2px solid white;
+    border-radius: 6px;
+    font: 20px;
+    cursor: pointer;
+}
+
+.button
+{
+    padding:50px 0;
+}
+
+
+    </style>
+</head>
+<body>
+    <header><var></var>
+        <nav>
+            <div class="left ">Esha's Portfolio</div>
+            <div class="right">
+                <ul>
+                   <a href=""> <li>Home</a></li>
+                    <a href=""><li>About</a></li>
+                    <a href=""><li>Services</a></li>
+                    <a href=""><li>Contact Me</a></li>
+                
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi ! I am <span class="purple">Esha</span>
+                <div>from Nepal.</div>
+                <div>I am </div>
+                <div>passionate </div>
+                <span id="element"></span>
+
+                <div class="button">
+                    <button  class="btn">Download resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+
+            </div>
+            <div class="rightSection">
+                <img src="png1.png" alt="Photo">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+           <span class="text-grey">What I have done</span>
+            <h1>Work Experiences</h1>
+           
+            <div class="box">
+              <div class="vertical">
+                <img src="html5.png" alt="" class="image-top">
+                <div class="vertical-title">
+                    HTML Developer
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tenetur consectetur porro!
+                </div>
+              </div>
+
+
+              <div class="vertical">
+                <img src="css.png" alt="" class="image-top">
+                <div class="vertical-title">
+                    CSS Developer
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tenetur consectetur porro!
+                </div>
+              </div>
+
+              <div class="vertical">
+                <img src="js.png" alt="" class="image-top">
+                <div class="vertical-title">
+                   Javascript Developer
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tenetur consectetur porro!
+                </div>
+              </div>
+              
+              <div class="vertical">
+                <img src="php.png" alt="" class="image-top">
+                <div class="vertical-title">
+                   PHP Developer
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tenetur consectetur porro!
+                </div>
+              </div>
+              
+              <div class="vertical">
+                <img src="c++.png" alt="" class="image-top">
+                <div class="vertical-title">
+                  C++ Coder
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tenetur consectetur porro!
+                </div>
+              </div>
+             
+            
+              
+
+            </div>
+
+
+        </section>
+    </main>
+    <footer>
+        <div class="flex">
+            <div class="footer-first">
+                <h3>Esha's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Experiences</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Experiences</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Experiences</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-right">
+        Copyright &#169; esha's portfolio.com | All rights reserved.
+        </div>
+    </Footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Coder.'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
